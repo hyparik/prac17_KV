@@ -26,7 +26,6 @@ class StartPage : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_start_page)
         pinEditText = findViewById(R.id.pin_code)
-        result = findViewById(R.id.result)
 
         pref = getSharedPreferences("TABLE2", Context.MODE_PRIVATE)
         pincode = pref?.getInt("code", 0)!!
