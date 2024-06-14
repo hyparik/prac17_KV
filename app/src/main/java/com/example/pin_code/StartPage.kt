@@ -20,7 +20,6 @@ lateinit var pref: SharedPreferences
 
 class StartPage : AppCompatActivity() {
     var pincode = 0
-    var count = 0
     var pref: SharedPreferences? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
